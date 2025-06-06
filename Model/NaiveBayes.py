@@ -15,7 +15,7 @@ if os.path.exists(LOCAL_FILENAME):
     file_path = LOCAL_FILENAME
 else:
     # Fallback for local development
-    SCRIPT_DIR = os.path.dirname(os.path.abspath(_file_))
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
     BASE_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
     file_path = os.path.join(BASE_DIR, 'Data', LOCAL_FILENAME)
 
