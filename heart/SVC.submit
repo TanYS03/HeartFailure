@@ -1,0 +1,7 @@
+executable = /home/ubuntu/data/run_svC.sh
+transfer_input_files = /home/ubuntu/data/Model/SVC.py, /home/ubuntu/data/Data/heart.csv
+output = /home/ubuntu/data/Model/outputSVC.txt
+error = /home/ubuntu/data/Model/errorSVC.txt
+log = /home/ubuntu/data/Model/logSVC.txt
+notification = Never
+queue

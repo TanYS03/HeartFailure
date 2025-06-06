@@ -1,0 +1,9 @@
+executable = /home/ubuntu/data/run_eda.sh
+transfer_input_files = /home/ubuntu/data/EDA/eda.py
+environment = "BASE_DATA_DIR=/home/ubuntu/data"
+output = output.txt
+error = error.txt
+log = log.txt
+initialdir = /home/ubuntu/data/EDA
+notification = Never
+queue

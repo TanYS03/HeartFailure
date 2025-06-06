@@ -1,0 +1,7 @@
+executable = /home/ubuntu/data/run_rf.sh
+transfer_input_files = /home/ubuntu/data/Model/RandomForest.py, /home/ubuntu/data/Data/heart.csv
+output = /home/ubuntu/data/Model/outputRF.txt
+error = /home/ubuntu/data/Model/errorRF.txt
+log = /home/ubuntu/data/Model/logRF.txt
+notification = Never
+queue

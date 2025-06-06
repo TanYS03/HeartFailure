@@ -1,0 +1,7 @@
+executable = /home/ubuntu/data/run_import.sh
+transfer_input_files = /home/ubuntu/data/Data/import.py
+output = /home/ubuntu/data/Data/output.txt
+error = /home/ubuntu/data/Data/error.txt
+log = /home/ubuntu/data/Data/log.txt
+notification = Never
+queue

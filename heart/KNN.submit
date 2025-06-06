@@ -1,0 +1,7 @@
+executable = /home/ubuntu/data/run_knn.sh
+transfer_input_files = /home/ubuntu/data/Model/KNN.py, /home/ubuntu/data/Data/heart.csv
+output = /home/ubuntu/data/Model/outputKNN.txt
+error = /home/ubuntu/data/Model/errorKNN.txt
+log = /home/ubuntu/data/Model/logKNN.txt
+notification = Never
+queue
