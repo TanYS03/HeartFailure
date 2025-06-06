@@ -1,9 +1,11 @@
 executable = /home/ubuntu/data/run_eda.sh
-transfer_input_files = /home/ubuntu/data/EDA/eda.py
+transfer_input_files = /home/ubuntu/data/EDA/eda.py, /home/ubuntu/data/Data/heart.csv
+transfer_output_files = EDA/
 environment = "BASE_DATA_DIR=/home/ubuntu/data"
 output = output.txt
 error = error.txt
 log = log.txt
 initialdir = /home/ubuntu/data/EDA
 notification = Never
+request_memory = 512
 queue
