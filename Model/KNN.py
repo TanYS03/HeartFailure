@@ -18,7 +18,7 @@ else:
     file_path = os.path.join(BASE_DIR, 'Data', LOCAL_FILENAME)
 
 # Load the dataset
-data = pd.read_csv(file_path, parse_dates=['Timestamp'])
+data = pd.read_csv(file_path)
 
 HD0=data[data["HeartDisease"]==0]
 HD1=data[data["HeartDisease"]==1]
