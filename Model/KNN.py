@@ -5,11 +5,19 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from sklearn.model_selection import GridSearchCV
 
+# Local filename assumption when run by HTCondor
+LOCAL_FILENAME = 'survey_cleaned.csv'
+
+if os.path.exists(LOCAL_FILENAME):
+    file_path = LOCAL_FILENAME
+else:
+    # Fallback for local development
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(_file_))
+    BASE_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
+    file_path = os.path.join(BASE_DIR, 'Data', LOCAL_FILENAME)
 
 # Load the dataset
-file_path = '/home/ubuntu/data/Data/heart.csv'
-
-data = pd.read_csv(file_path)
+data = pd.read_csv(file_path, parse_dates=['Timestamp'])
 
 HD0=data[data["HeartDisease"]==0]
 HD1=data[data["HeartDisease"]==1]
