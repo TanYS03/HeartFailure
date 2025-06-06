@@ -1,12 +1,13 @@
 import pandas as pd
 import numpy as np
+import os
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from sklearn.model_selection import GridSearchCV
 
 # Local filename assumption when run by HTCondor
-LOCAL_FILENAME = 'survey_cleaned.csv'
+LOCAL_FILENAME = 'heart.csv'
 
 if os.path.exists(LOCAL_FILENAME):
     file_path = LOCAL_FILENAME
