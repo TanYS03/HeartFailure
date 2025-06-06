@@ -64,8 +64,7 @@ param_gridRF = {
     'min_samples_split': [2, 5, 10],  
     'min_samples_leaf': [1, 2, 5],     
     'criterion': ['gini', 'entropy'],
-    'verbose': [0,1,2,3],
-    'max_features':["sqrt","None","log2"]
+    'max_features':["sqrt",None,"log2"]
 }
 
 grid_searchRF = GridSearchCV(estimator=RF, param_grid=param_gridRF, cv=5, scoring='accuracy', n_jobs=-1)
