@@ -1,5 +1,5 @@
 executable = /home/ubuntu/data/run_nv.sh
-transfer_input_files = /home/ubuntu/data/Model/NaiveBayes.py, /home/ubuntu/data/heart.csv
+transfer_input_files = /home/ubuntu/data/Model/NaiveBayes.py, /home/ubuntu/data/Data/heart.csv
 output = /home/ubuntu/data/Model/outputNB.txt
 error = /home/ubuntu/data/Model/errorNB.txt
 log = /home/ubuntu/data/Model/logNB.txt
