@@ -1,0 +1,8 @@
+executable = /home/ubuntu/data/run_summary.sh
+transfer_input_files = /home/ubuntu/data/Model/Summary.py, /home/ubuntu/data/Data/heart.csv
+output = /home/ubuntu/data/Model/outputSum.txt
+error = /home/ubuntu/data/Model/errorSum.txt
+log = /home/ubuntu/data/Model/logSum.txt
+notification = Never
+request_memory = 512MB
+queue
