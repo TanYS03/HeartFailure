@@ -2,9 +2,9 @@ JOB import                import.submit
 JOB eda                   eda.submit
 JOB NaiveBayes            NaiveBayes.submit
 JOB RandomForest          RandomForest.submit
-JOB KNN			          KNN.submit
-JOB SVM			          SVM.submit
+JOB KNN			              KNN.submit
+JOB SVC			              SVC.submit
 
 PARENT import             CHILD eda
 PARENT eda                CHILD NaiveBayes RandomForest
-PARENT NaiveBayes RandomForest CHILD KNN SVM
+PARENT NaiveBayes RandomForest CHILD KNN SVC
