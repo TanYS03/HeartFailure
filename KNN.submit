@@ -4,5 +4,5 @@ output = /home/ubuntu/data/Model/outputKNN.txt
 error = /home/ubuntu/data/Model/errorKNN.txt
 log = /home/ubuntu/data/Model/logKNN.txt
 notification = Never
-request_memory = 512
+request_memory = 512MB
 queue
