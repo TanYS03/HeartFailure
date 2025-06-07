@@ -4,5 +4,5 @@ output = /home/ubuntu/data/Model/outputSVC.txt
 error = /home/ubuntu/data/Model/errorSVC.txt
 log = /home/ubuntu/data/Model/logSVC.txt
 notification = Never
-request_memory = 512
+request_memory = 512MB
 queue
