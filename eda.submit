@@ -7,5 +7,5 @@ error = error.txt
 log = log.txt
 initialdir = /home/ubuntu/data/EDA
 notification = Never
-request_memory = 512
+request_memory = 512MB
 queue
