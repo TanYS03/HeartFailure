@@ -7,4 +7,4 @@ JOB SVC			              SVC.submit
 
 PARENT import             CHILD eda
 PARENT eda                CHILD NaiveBayes RandomForest
-PARENT NaiveBayes RandomForest CHILD KNN SVC
+PARENT NaiveBayes         CHILD KNN SVC
